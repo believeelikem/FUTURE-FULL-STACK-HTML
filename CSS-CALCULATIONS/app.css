@@ -1,0 +1,7 @@
+:root{
+    --text-h1:50px
+}
+
+h1{
+    font-size: calc(var(--text-h1) + 10vw);
+}

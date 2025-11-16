@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+img{
+    width: 100px;
+}
+
+/* img is not centered because in normal flow, image is centered, diffrent for flex-box */

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Journal</title>
+</head>
+<body>
+    <h1> Create a Journal</h1>
+    <form action="" method="post" >
+
+        <label for="main-title"> JournalTitle </label>
+        <input id="main-title" type="text" name="title" placeholder="Enter title " required>
+        <br>
+         
+        <label for="journal-category">Journal Category </label>
+        <select id="journal-category" name="" >
+            <option value="some">some</option>
+            <option value="habit">habit</option>
+            <option value="memory">memory</option>
+            <option value="mood">mood</option>
+        </select>
+        <br>
+
+        <label for="journal-entry"> Journal entry </label>
+        <textarea value="" name="entry" id="journal-entry" rows="5" cols="30" minlength="10" required></textarea>
+
+        <button type="Submit"> Submit </button>
+        
+    </form>    
+</body>
+</html>

@@ -1,0 +1,206 @@
+/* .flex-container{ */
+    /* width: 800px;
+    height: 800px; */
+    /* background-color: lightblue;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+/* height determines height when height is set but element with the highest hieight determines it when it is height is not  */
+/* 
+.flex-item-1{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+}
+.flex-item-2{
+    width: 50px;
+    height: 300px;
+    background-color: purple;
+}
+.flex-item-3{
+    width: 100px;
+    height: 150px;
+    background-color: red;
+}
+.flex-item-4{
+    width: 150px;
+    height: 50px;
+    background-color:grey;
+} */
+
+/* for flex-directions: column, elements determine height and if there arent any space thus a defined height, 
+it just wont have any effect when u try to set values for it whne u use justify-content even thought its the main axis */
+/* .flex-container{  */
+    /* width: 800px; */
+    /* height: 800px;
+    background-color: lightblue;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
+
+
+/* height determines height when height is set but element with the highest hieight determines it when it is height is not  */
+
+/* .flex-item-1{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+}
+.flex-item-2{
+    width: 50px;
+    height: 300px;
+    background-color: purple;
+}
+.flex-item-3{
+    width: 100px;
+    height: 150px;
+    background-color: red;
+}
+.flex-item-4{
+    width: 150px;
+    height: 50px;
+    background-color:grey;
+} */
+
+/* CROSS -AXIS  */
+/* .flex-container{  */
+    /* width: 800px; */
+    /* height: 800px;
+    background-color: lightblue;
+    color: white;
+    font-size: 30px;
+    display: flex; */
+    /* align-items: stretch;  doesnt channge anything because this is the default value*/
+    /* align-items:center; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+/* } */
+
+
+/* height determines height when height is set but element with the highest hieight determines it when it is height is not  */
+
+/* .flex-item-1{
+    height: 100px;
+    width: 200px;
+    background-color: blue; */
+    /* font-size: 90px; */
+/* } */
+/* .flex-item-2{
+    width: 50px;
+    height: 300px; */
+    /* font-size: 200px; */
+    /* background-color: purple;
+} */
+/* .flex-item-3{
+    width: 100px;
+    height: 150px; */
+    /* font-size: 150px; */
+    /* background-color: red;
+} */
+/* .flex-item-4{
+    width: 150px;
+    height: 50px;  */
+    /* font-size: 120px; */
+    /* background-color:grey;
+} */
+
+/*  MAIN-AXIS JUSTIFY CONTENT  */
+/* .flex-container{  */
+    /* width: 800px; */
+    /* height: 800px;
+    background-color: lightblue;
+    color: white;
+    font-size: 30px;
+    display: flex; */
+    /* align-items: stretch;  doesnt channge anything because this is the default value*/
+    /* align-items:center; */
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* height determines height when height is set but element with the highest hieight determines it when it is height is not  */
+
+/* .flex-item-1{ */
+    /* height: 100px;
+    width: 200px; */
+    /* background-color: blue;
+    font-size: 90px;
+} */
+/* .flex-item-2{ */
+    /* width: 50px;
+    height: 300px; */
+    /* font-size: 200px;
+    background-color: purple;
+} */
+/* .flex-item-3{ */
+    /* width: 100px;
+    height: 150px; */
+    /* font-size: 150px;
+    background-color: red;
+} */
+/* .flex-item-4{ */
+    /* width: 150px;
+    height: 50px;  */
+    /* font-size: 120px;
+    background-color:grey;
+} */
+
+/*  SETTING BOX-MODEL PROPERTIES TO FLEXBOX */
+
+.flex-container{ 
+    /* width: 800px; */
+    height: 800px;
+    background-color: lightblue;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    /* align-items: stretch;  doesnt channge anything because this is the default value*/
+    /* align-items:center; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+/* height determines height when height is set but element with the highest hieight determines it when it is height is not  */
+
+.flex-item-1{
+    /* height: 100px;
+    width: 200px; */
+    background-color: blue;
+    font-size: 90px;
+    /* margin-right: 50px; */
+}
+.flex-item-2{
+    /* width: 50px;
+    height: 300px; */
+    font-size: 200px;
+    background-color: purple;
+    /* padding: 40px; */
+}
+.flex-item-3{
+    /* width: 100px;
+    height: 150px; */
+    font-size: 150px;
+    background-color: red;
+    /* margin: 100px; */
+}
+
+.flex-item-4{
+    /* width: 150px;
+    height: 50px;  */
+    font-size: 120px;
+    background-color:grey;
+}
+

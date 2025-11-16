@@ -1,0 +1,28 @@
+
+:root{
+    --primary:#12ba87;
+    --grey:#333333;
+    --text-lg:50px;
+    --text-sm:20px;
+}
+
+.btn{
+    background-color: var(--primary);
+    padding: 20px 40px;
+    margin-bottom: var(--text-lg);
+    display: inline-block;
+    color: var(--grey);
+    font-size: var(--text-sm);
+}
+
+.card{
+    background-color:var(--primary);
+    width: 800px;
+    height: 400px;
+}
+
+
+h1{
+    font-size: var(--text-lg);
+    color: var(--grey);
+}

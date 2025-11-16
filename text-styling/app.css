@@ -1,0 +1,15 @@
+h1{
+    text-decoration: underline red wavy;
+}
+
+h2{
+    text-decoration: line-through green dashed;
+}
+
+p{
+    text-decoration: overline pink ;
+}
+
+a{
+    text-decoration: none;
+}
