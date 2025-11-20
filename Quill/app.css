@@ -168,6 +168,9 @@ a{
     display: inline-block;
 
 }
+a:link, a:visited,a:hover,a:active {
+    color: var(--grey-base);
+}
 
 span{
     display: inline-block;
@@ -321,6 +324,7 @@ ul{
 
 .hero-paragrapgh{
     margin-bottom: 5rem;
+    text-align: center;
     
 }
 
@@ -344,7 +348,16 @@ ul{
 .features-grid-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    row-gap: 15rem;
+    column-gap: 5rem;
+    justify-items: center;
+    align-items: center;
 }
+.feature-img-swap-order{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
 .feature-img{
     max-width:  400px;
     width: 100%;
@@ -361,7 +374,6 @@ ul{
    margin-bottom: 30rem;
     display: flex;
     justify-content: center;
-
 }
 
 .CTA-card{
@@ -375,6 +387,7 @@ ul{
 
 .CTA-heading{
     margin-bottom: 3rem;
+    color:var(--white);
 }
 
 /* ----FOOTER SECTION ------ */
@@ -401,6 +414,11 @@ ul{
     display: flex;
     gap: 1rem;
 }
+
+.heart-icon{
+    color: var(--secondary-base);
+}
+
 
 
 

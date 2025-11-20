@@ -38,17 +38,32 @@
 .grid-container{
     font-size: 40px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    /* grid-template-columns: repeat(2,1fr); */
+    grid-template-columns: 100px 100px;
+    grid-template-rows: repeat(4,100px);
 
     /* grid-template-rows: 1fr 2fr 3fr 4fr; */
-    width: 400px;
+    width: 800px;
     /* height: 800px; */
+    /* row-gap: 20px;
+    column-gap: 40px; */
+    /* justify-items: stretch; default*/
+    /* justify-items: center; */
+    height: 800px;
+    /* align-items:center ;
+    justify-items: center; */
+    background-color: black;
+    /* justify-content: start; */
+    /* justify-items: 50px; */
 
+    align-content: space-evenly;
+    
 }
 
 .grid-item-1{
     background-color: red;
 }
+
 .grid-item-2{
     background-color: green;
 }
