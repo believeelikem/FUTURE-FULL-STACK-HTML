@@ -48,7 +48,7 @@
     }
 }
 
-/*  XSM Phone in portrait <576px */
+/*  SM Phone in portrait <576px */
 
 @media(max-width:34rem){
     /* 34 rem*/
@@ -70,6 +70,7 @@
         column-gap: 0.5rem;
         grid-template-columns: 1fr;
     } 
+
     .feature-img-swap-order{
         grid-row: auto;
         grid-column: auto;
