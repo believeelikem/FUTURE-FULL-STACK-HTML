@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.modal{
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+    position: absolute;
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .modal {
+    position: absolute;
+    top: 0;        /* force it to start at top */
+    /* left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+    background: lightgray;
+} */

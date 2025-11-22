@@ -1,0 +1,15 @@
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.card:hover{
+    /* transform: scale(1.2,1.5); */
+    /* transform: skew(20deg,20deg); */
+    /* transform: rotate(45deg); */
+    transform: translate(0,100px);
+    
+}

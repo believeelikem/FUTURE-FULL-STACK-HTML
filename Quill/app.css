@@ -224,6 +224,7 @@ ul{
     color: var(--white);
     background-color: var(--primary-shade);
     border: 2px solid var(--primary-shade);
+    transform: scale(1.05,1.05);
     
 }
 
@@ -239,6 +240,7 @@ ul{
     color: var(--primary-shade);
     background-color: var(--white);
     border: 2px solid var(--primary-shade);
+    transform: scale(1.05,1.05);
 }
 
 .btn-secondary:link,.btn-secondary:visited{
@@ -251,6 +253,7 @@ ul{
     color: var(--white);
     background-color: var(--secondary-shade);
     border: 2px solid var(--secondary-shade);
+    transform: scale(1.05,1.05);
 }
 
 .highlight{
@@ -278,7 +281,39 @@ ul{
     width: 80px;
 }
 
+.chat-container{
+    height: 7rem;
+    width: 7rem;
+    background-color: var(--primary-tint);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    bottom:2rem;
+    right: 2rem;
+    border-radius: 50%;
+}
+.chat-icon{
+    width: 5rem;
+    height: 5rem;
+}
 
+.beta{
+    position: relative;
+}
+
+.beta::after{
+    content: 'beta';
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.2rem;
+    background-color: var(--tertiary-base);
+    padding: 0.5rem 1rem;
+    color: white;
+    transform: translate(60%,-60%);
+
+}
 /* --------------- SECTIONS --------------- */
 
 /* ----HEADER SECTION ------ */
